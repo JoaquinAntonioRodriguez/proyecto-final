@@ -1,0 +1,62 @@
+.form-contact {
+    background: #FFF;
+    
+    margin: auto;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+  }
+  
+  header {
+    width: 100%;
+    background: grey;
+    overflow: hidden;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+    
+  }
+  
+  .contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+  }
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;   
+  }
+  
+  .contact label {
+    font-weight: 700;
+  }
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background:black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer;
+  
+  }

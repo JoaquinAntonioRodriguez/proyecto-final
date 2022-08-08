@@ -1,0 +1,20 @@
+.img-home{
+    width: 100%;
+}
+@media screen and (min-width: 300px) {
+    iframe{
+        height: 200px;
+    }
+    
+}
+@media screen and (min-width: 600px) {
+    iframe{
+        height: 500px;
+    }
+    
+}
+.texto-home {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}

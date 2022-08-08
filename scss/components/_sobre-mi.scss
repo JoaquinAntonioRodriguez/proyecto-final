@@ -1,0 +1,45 @@
+.seccion-sobre-mi {
+    display: flex;
+    
+    .texto-sobre-mi{
+        color: whitesmoke;
+        margin: auto;
+        text-align:justify;
+    }}
+    @media screen and (min-width: 300px) {
+        
+
+        .imagen-sobre-mi{
+            
+            width: 100%;
+        }
+        
+        .seccion-sobre-mi{
+            display: inline-block;
+            
+        }
+        .mapa {width: 100%;}
+        .form-contact{width: 100%;} 
+    }
+    @media  (min-width: 1004px) {
+        .imagen-sobre-mi{
+            width: 50%;
+        }
+        .seccion-sobre-mi{
+            display: flex;
+        }
+        .form-contact{width: 400px;}
+        
+    }
+    
+    .mapa  h5 {
+        color: white;
+        text-align: center;
+       
+    }
+    .texto-prueba{
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: end;
+    }

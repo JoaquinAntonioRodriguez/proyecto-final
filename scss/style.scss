@@ -1,0 +1,15 @@
+@import "components/formulario";
+@import "components/sobre-mi";
+@import "components/header";
+@import "components/footer";
+@import "components/trabajos";
+@import "components/home";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("/imagenes/2.jpg");
+}
+
